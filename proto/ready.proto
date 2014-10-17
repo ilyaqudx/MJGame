@@ -1,0 +1,6 @@
+option java_package="com.gwsoft.server.game.protobuf";
+option java_outer_classname="ReadyProtobuf";
+
+message Ready{
+	required int32 ready = 1;
+}

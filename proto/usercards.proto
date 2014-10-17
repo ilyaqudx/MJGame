@@ -1,0 +1,11 @@
+option java_package="com.gwsoft.server.game.protobuf";
+option java_outer_classname="UserCardsProtobuf";
+
+message Card{
+	required int32 type = 1;
+	required int32 num  = 2;
+}
+
+message UserCards{
+	repeated Card card  = 1;
+}

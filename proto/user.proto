@@ -1,0 +1,10 @@
+option java_package="com.gwsoft.server.game.protobuf";
+option java_outer_classname="UserProtobuf";
+
+message User{
+	required int64 id = 1;
+	required string name = 2;
+	required int32 sex = 3;
+	required int32 age = 4;
+	optional string email = 5;
+}

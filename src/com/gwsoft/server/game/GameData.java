@@ -15,6 +15,8 @@ public class GameData {
 	public static final int DISPOSE_GUO = -1;
 	public static final int DISPOSE_NULL = 0;
 	
+	
+	
 	private boolean canPeng;
 	private boolean canGang;
 	private boolean canHu;
